@@ -1,0 +1,20 @@
+.send
+{
+	width: 161px;
+	height: 56px;
+	background: silver;
+	border: none;
+	outline: none;
+	float: right;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+    margin-top: 14px;
+    border-radius: 3px 3px;
+
+}
+.send:hover
+{
+	background: black;
+}

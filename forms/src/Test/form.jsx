@@ -1,6 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+    import {
+        Button, ButtonToolbar, ButtonGroup
+    } from 'react-bootstrap';
+    import './form.css';
 
 class Test extends React.Component {
 	constructor(props) {
@@ -88,9 +91,11 @@ class Test extends React.Component {
 													</div>
 												</div>
 												<div>
-                                                <button style={{ float : "left"}} class="send">Cancel</button>
-												<button style={{ float : "left"}} class="send">Save</button>
-
+                                                <ButtonGroup style={{ float : "right"}}>
+                                                <Button style={{ float : "right"}} variant="light" class="send">Cancel</Button>
+												<Button style={{ float : "right"}} variant="light" class="send">Save</Button>
+                                                </ButtonGroup>
+                                               
 												</div>
 
 											</form>
